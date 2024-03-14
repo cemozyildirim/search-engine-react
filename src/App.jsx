@@ -15,7 +15,14 @@ function App() {
       const resultHr = document.querySelector('.search__hr');
       const searchResult = document.querySelector('.search__area');
       resultHr.classList.add('search__hr-visible');
+      searchResult.classList.remove('search__area-bottom')
       searchResult.classList.add('search__area-top')
+    } else {
+      const resultHr = document.querySelector('.search__hr');
+      const searchResult = document.querySelector('.search__area');
+      resultHr.classList.remove('search__hr-visible');
+      searchResult.classList.remove('search__area-top')
+      searchResult.classList.add('search__area-bottom')
     }
   };
 

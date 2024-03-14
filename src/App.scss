@@ -93,6 +93,15 @@ body {
       margin-top: 10%;
     }
 
+  }
+
+  &__area-bottom {
+    margin-top: 12%;
+    transition-duration: 500ms;
+
+    @media (max-width: 1024px) {
+      margin-top: 10%;
+    }
 
   }
 
